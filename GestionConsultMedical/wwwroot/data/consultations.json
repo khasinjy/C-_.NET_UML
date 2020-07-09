@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "horaire": "2020-06-11 10:30:00",
+    "Medecins_id": 2,
+    "Patients_id": 5,
+    "raison": "Mal de ventre"
+  },
+  {
+    "id": 2,
+    "horaire": "2020-04-20 15:25:00",
+    "Medecins_id": 5,
+    "Patients_id": 3,
+    "raison": "Fievre"
+  },
+  {
+    "id": 3,
+    "horaire": "2020-01-30 09:45:00",
+    "Medecins_id": 2,
+    "Patients_id": 1,
+    "raison": "Gastro"
+  },
+  {
+    "id": 4,
+    "horaire": "2020-02-21 11:50:00",
+    "Medecins_id": 3,
+    "Patients_id": 2,
+    "raison": "Grippe"
+  },
+  {
+    "id": 5,
+    "horaire": "2020-05-09 09:10:00",
+    "Medecins_id": 1,
+    "Patients_id": 4,
+    "raison": "Mal aux pieds"
+  },
+  {
+    "id": 6,
+    "horaire": "2020-05-04 11:20:00",
+    "Medecins_id": 1,
+    "Patients_id": 1,
+    "raison": "Mal de dos"
+  }
+]

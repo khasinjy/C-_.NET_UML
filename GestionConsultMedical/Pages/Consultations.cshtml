@@ -1,0 +1,105 @@
+@page
+@model ConsultationsModel
+@{
+    ViewData["Title"] = "Liste des consultations";
+}
+
+
+<div class="container">
+
+<div class="text-center">
+    <h1 class="display-4">Liste des consultations</h1>
+    <p>DoctiConsult</p>
+</div>
+
+
+<button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#addConsultationModal">
+  Ajouter une consultation
+</button>
+
+<br>
+<br>
+
+<table class="table table-fixed">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Horaire</th>
+      <th scope="col">Medecin</th>
+      <th scope="col">Patient</th>
+      <th scope="col">Raison</th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach (var consultation in Model.Consultations)
+{
+    
+     <tr>
+      <th scope="row">@consultation.id</th>
+      <td>@consultation.horaire</td>
+      @foreach (var medecin in Model.Medecins)
+      {
+          @if(@consultation.Medecins_id == @medecin.id){
+            <td>@medecin.nom @medecin.prenom</td>
+          }
+            
+      }
+      @foreach (var patient in Model.Patients)
+      {
+          @if(@consultation.Patients_id == @patient.id){
+            <td>@patient.nom @patient.prenom</td>
+          }
+            
+      }
+      <td>@consultation.raison</td>
+    </tr>
+
+}
+  </tbody>
+</table>
+
+<!-- Modal Ajout d'une consultation-->
+<div class="modal fade" id="addConsultationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ajouter une consultation</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="POST">
+            <div class="form-group">
+                <label for="idConsultation">Numéro</label>
+                <input class="form-control" id="idConsultation" asp-for="Consultation.id"/>
+              </div>  
+              <div class="form-group">
+                <label for="horaire">Horaire</label>
+                <input class="form-control" id="horaire" asp-for="Consultation.horaire"/>
+              </div>  
+              <div class="form-group">
+                <label for="medecins_id">Medecins_id</label>
+                <input class="form-control" id="medecins_id" asp-for="Consultation.Medecins_id"/>
+              </div>                
+              <div class="form-group">
+                <label for="patients_id">Patients_id</label>
+                <input class="form-control" id="patients_id" asp-for="Consultation.Patients_id"/>
+              </div>   
+              <div class="form-group">
+                <label for="raison">Raison</label>
+                <input class="form-control" id="raison" asp-for="Consultation.raison"/>
+              </div>                 
+    
+        <input class="btn btn-primary" type="submit"/>
+        </form>
+
+</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
