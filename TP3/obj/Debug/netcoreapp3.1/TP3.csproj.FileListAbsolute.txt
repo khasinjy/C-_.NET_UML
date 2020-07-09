@@ -1,0 +1,13 @@
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.csprojAssemblyReference.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.AssemblyInfoInputs.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.AssemblyInfo.cs
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.csproj.CoreCompileInputs.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\bin\Debug\netcoreapp3.1\TP3.exe
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\bin\Debug\netcoreapp3.1\TP3.deps.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\bin\Debug\netcoreapp3.1\TP3.runtimeconfig.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\bin\Debug\netcoreapp3.1\TP3.runtimeconfig.dev.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\bin\Debug\netcoreapp3.1\TP3.dll
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\bin\Debug\netcoreapp3.1\TP3.pdb
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.dll
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.pdb
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\TP3\obj\Debug\netcoreapp3.1\TP3.genruntimeconfig.cache

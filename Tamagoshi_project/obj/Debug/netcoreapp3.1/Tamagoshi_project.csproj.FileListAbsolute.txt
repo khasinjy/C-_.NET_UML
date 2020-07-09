@@ -1,0 +1,13 @@
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.csprojAssemblyReference.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.AssemblyInfoInputs.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.AssemblyInfo.cs
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.csproj.CoreCompileInputs.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\bin\Debug\netcoreapp3.1\Tamagoshi_project.exe
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\bin\Debug\netcoreapp3.1\Tamagoshi_project.deps.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\bin\Debug\netcoreapp3.1\Tamagoshi_project.runtimeconfig.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\bin\Debug\netcoreapp3.1\Tamagoshi_project.runtimeconfig.dev.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\bin\Debug\netcoreapp3.1\Tamagoshi_project.dll
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\bin\Debug\netcoreapp3.1\Tamagoshi_project.pdb
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.dll
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.pdb
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NetUML\Tamagoshi_project\obj\Debug\netcoreapp3.1\Tamagoshi_project.genruntimeconfig.cache
