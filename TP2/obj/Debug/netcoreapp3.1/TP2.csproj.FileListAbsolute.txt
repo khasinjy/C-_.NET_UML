@@ -1,0 +1,13 @@
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\bin\Debug\netcoreapp3.1\TP2.exe
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\bin\Debug\netcoreapp3.1\TP2.deps.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\bin\Debug\netcoreapp3.1\TP2.runtimeconfig.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\bin\Debug\netcoreapp3.1\TP2.runtimeconfig.dev.json
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\bin\Debug\netcoreapp3.1\TP2.dll
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\bin\Debug\netcoreapp3.1\TP2.pdb
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.csprojAssemblyReference.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.AssemblyInfoInputs.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.AssemblyInfo.cs
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.csproj.CoreCompileInputs.cache
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.dll
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.pdb
+C:\Users\Khasinjy\Documents\DAI\DotnetProjets\Groupe6C-.NETObjets\TP2\obj\Debug\netcoreapp3.1\TP2.genruntimeconfig.cache
