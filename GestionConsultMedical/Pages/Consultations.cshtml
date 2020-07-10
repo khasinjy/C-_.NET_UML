@@ -28,6 +28,7 @@
       <th scope="col">Medecin</th>
       <th scope="col">Patient</th>
       <th scope="col">Raison</th>
+      <th scope="col"></th>
     </tr>
   </thead>
   <tbody>
@@ -52,6 +53,10 @@
             
       }
       <td>@consultation.raison</td>
+      <!-- Bouton Suppression d'une consultation-->
+      <td> <button type="button" class="btn btn-primary">Supprimer</button>
+      </td>
+
     </tr>
 
 }
@@ -79,7 +84,7 @@
                 <input class="form-control" id="horaire" asp-for="Consultation.horaire"/>
               </div>  
               <div class="form-group">
-                <label for="medecins_id">Medecins_id</label>
+                <label for="medecins_id">Medecin</label>
                 <select class="form-control" id="medecins_id" asp-for="Consultation.Medecins_id">
                   @foreach (var medecin in Model.Medecins)
                   {
@@ -89,7 +94,7 @@
                 </select>
               </div>                
               <div class="form-group">
-                <label for="patients_id">Patients_id</label>
+                <label for="patients_id">Patient</label>
                 <select class="form-control" id="patients_id" for="patients" asp-for="Consultation.Patients_id">
                   @foreach (var patient in Model.Patients)
                   {

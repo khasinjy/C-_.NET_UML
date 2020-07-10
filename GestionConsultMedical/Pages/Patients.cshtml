@@ -1,0 +1,121 @@
+@page
+@model PatientsModel
+@{
+    ViewData["Title"] = "Liste des patients";
+}
+
+
+<div class="container">
+
+<div class="text-center">
+    <h1 class="display-4">Liste des patients</h1>
+    <p>DoctiConsult</p>
+</div>
+
+
+<button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#addPatientModal">
+  Ajouter un patient
+</button>
+
+<br>
+<br>
+
+<table class="table table-fixed">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prenom</th>
+      <th scope="col">N° secu</th>
+      <th scope="col">Ville</th>
+      <th scope="col">Adresse</th>
+      <th scope="col">Téléphone</th>
+      <th scope="col">Medecin traitant</th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach (var patient in Model.Patients)
+{
+    
+     <tr>
+      <th scope="row">@patient.id</th>
+      <td>@patient.nom</td>
+      <td>@patient.prenom</td>
+      <td>@patient.numero_secu</td>
+      <td>@patient.ville</td>
+      <td>@patient.adresse</td>
+      <td>@patient.numero</td>
+      @foreach (var medecin in Model.Medecins)
+      {
+          @if(@patient.medecin_traitant == @medecin.id){
+            <td>@medecin.nom @medecin.prenom</td>
+          }
+            
+      }
+    </tr>
+
+}
+  </tbody>
+</table>
+
+<!-- Modal Ajout d'un Patient -->
+<div class="modal fade" id="addPatientModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ajouter un patient</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="POST">
+            <div class="form-group">
+                <label for="idPatient">ID</label>
+                <input class="form-control" id="idMedecin" asp-for="Patient.id"/>
+              </div>  
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input class="form-control" id="nom" asp-for="Patient.nom"/>
+              </div>  
+              <div class="form-group">
+                <label for="prenom">Prenom</label>
+                <input class="form-control" id="prenom" asp-for="Patient.prenom"/>
+              </div> 
+              <div class="form-group">
+                <label for="ville">Ville</label>
+                <input class="form-control" id="ville" asp-for="Patient.ville"/>
+              </div> 
+              <div class="form-group">
+                <label for="adresse">Adresse</label>
+                <input class="form-control" id="adresse" asp-for="Patient.adresse"/>
+              </div>                
+              <div class="form-group">
+                <label for="numero">Téléphone</label>
+                <input class="form-control" id="numero" asp-for="Patient.numero"/>
+              </div>         
+              <div class="form-group">
+                <label for="medecin_traitant_id">Medecin traitant</label>
+                <select class="form-control" id="medecin_traitant_id" for="medecin_traitant" asp-for="Patient.medecin_traitant">
+                  @foreach (var medecin in Model.Medecins)
+                  {
+                    <option value=@medecin.id>@medecin.id - @medecin.nom @medecin.prenom 
+                    </option>
+                  }
+                </select>        
+              </div>         
+    
+        <input class="btn btn-primary" type="submit"/>
+        </form>
+ 
+</div>
+ 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

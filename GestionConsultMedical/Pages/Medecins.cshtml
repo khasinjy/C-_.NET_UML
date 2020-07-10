@@ -1,0 +1,88 @@
+@page
+@model MedecinsModel
+@{
+    ViewData["Title"] = "Liste des medecins";
+}
+
+
+<div class="container">
+
+<div class="text-center">
+    <h1 class="display-4">Liste des medecins</h1>
+    <p>DoctiConsult</p>
+</div>
+
+
+<button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#addMedecinModal">
+  Ajouter un medecin
+</button>
+
+<br>
+<br>
+
+<table class="table table-fixed">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Nom</th>
+      <th scope="col">Prenom</th>
+      <th scope="col">Téléphone</th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+@foreach (var medecin in Model.Medecins)
+{
+    
+     <tr>
+      <th scope="row">@medecin.id</th>
+      <td>@medecin.nom</td>
+      <td>@medecin.prenom</td>
+      <td>@medecin.numero</td>
+    </tr>
+
+}
+  </tbody>
+</table>
+
+<!-- Modal Ajout d'un medecin -->
+<div class="modal fade" id="addMedecinModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ajouter un medecin</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form method="POST">
+            <div class="form-group">
+                <label for="idMedecin">ID</label>
+                <input class="form-control" id="idMedecin" asp-for="Medecin.id"/>
+              </div>  
+              <div class="form-group">
+                <label for="nom">Nom</label>
+                <input class="form-control" id="nom" asp-for="Medecin.nom"/>
+              </div>  
+              <div class="form-group">
+                <label for="prenom">Prenom</label>
+                <input class="form-control" id="prenom" asp-for="Medecin.prenom"/>
+              </div>                
+              <div class="form-group">
+                <label for="numero">Téléphone</label>
+                <input class="form-control" id="numero" asp-for="Medecin.numero"/>
+              </div>                 
+    
+        <input class="btn btn-primary" type="submit"/>
+        </form>
+ 
+</div>
+ 
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+

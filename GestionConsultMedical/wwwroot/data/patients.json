@@ -1,6 +1,62 @@
-[{"id":1, "nom":"Bgdelanight", "prenom":"Denis", "numero_secu":"9874132198", "ville":"Paris", "adresse":"126 rue de charenton", "numero":"0608012369", "medecin_traitant":2},
- {"id":2, "nom":"Mac", "prenom":"Matthieu", "numero_secu":"2162564898", "ville":"Ouaf", "adresse":"69 rue du manche a couille", "numero":"0789635814", "medecin_traitant":4},
- {"id":3, "nom":"LPB", "prenom":"Yanis", "numero_secu":"4569416854", "ville":"ChannelCityGang", "adresse":"37 Avenue des mannequins", "numero":"0721692169", "medecin_traitant":1},
- {"id":4, "nom":"Etalon", "prenom":"Lahcen", "numero_secu":"5866545641", "ville":"SpiritVille", "adresse":"55 rue du cheval blanc d'henry IV", "numero":"0669696969", "medecin_traitant":5},
- {"id":5, "nom":"Moulaga", "prenom":"Julien", "numero_secu":"5465465156", "ville":"MoulaCity", "adresse":"27 Avenue de la sainte moula", "numero":"0685269845", "medecin_traitant":3},
- {"id":6, "nom":"Mamene", "prenom":"Lorenzo", "numero_secu":"3195498456", "ville":"Rennes", "adresse":"30 rue du sale", "numero":"0685362198", "medecin_traitant":1}]
+[
+  {
+    "id": 1,
+    "nom": "Bgdelanight",
+    "prenom": "Denis",
+    "numero_secu": "9874132198",
+    "ville": "Paris",
+    "adresse": "126 rue de charenton",
+    "numero": "0608012369",
+    "medecin_traitant": 2
+  },
+  {
+    "id": 2,
+    "nom": "Mac",
+    "prenom": "Matthieu",
+    "numero_secu": "2162564898",
+    "ville": "Ouaf",
+    "adresse": "69 rue du manche a couille",
+    "numero": "0789635814",
+    "medecin_traitant": 4
+  },
+  {
+    "id": 3,
+    "nom": "LPB",
+    "prenom": "Yanis",
+    "numero_secu": "4569416854",
+    "ville": "ChannelCityGang",
+    "adresse": "37 Avenue des mannequins",
+    "numero": "0721692169",
+    "medecin_traitant": 1
+  },
+  {
+    "id": 4,
+    "nom": "Etalon",
+    "prenom": "Lahcen",
+    "numero_secu": "5866545641",
+    "ville": "SpiritVille",
+    "adresse": "55 rue du cheval blanc d\u0027henry IV",
+    "numero": "0669696969",
+    "medecin_traitant": 5
+  },
+  {
+    "id": 5,
+    "nom": "Moulaga",
+    "prenom": "Julien",
+    "numero_secu": "5465465156",
+    "ville": "MoulaCity",
+    "adresse": "27 Avenue de la sainte moula",
+    "numero": "0685269845",
+    "medecin_traitant": 3
+  },
+  {
+    "id": 6,
+    "nom": "Mamene",
+    "prenom": "Lorenzo",
+    "numero_secu": "3195498456",
+    "ville": "Rennes",
+    "adresse": "30 rue du sale",
+    "numero": "0685362198",
+    "medecin_traitant": 1
+  }
+]
