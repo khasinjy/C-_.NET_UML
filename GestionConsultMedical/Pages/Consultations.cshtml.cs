@@ -55,7 +55,5 @@ namespace myWebAppHTTPS.Pages
             ConsultationsServive.addConsultations(Consultation);
             return RedirectToPage("./Consultations");
         }
-
-
     }
 }

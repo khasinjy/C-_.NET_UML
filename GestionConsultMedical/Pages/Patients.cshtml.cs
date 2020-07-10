@@ -22,6 +22,8 @@ namespace myWebAppHTTPS.Pages
 
         public Medecins Medecin { get; set; }
 
+        [BindProperty]
+        
         public Patients Patient { get; set; }
 
         public IEnumerable<Consultations> Consultations { get; private set; }

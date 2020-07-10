@@ -56,6 +56,25 @@ namespace myWebAppHTTPS.Services
 
 
         }
+
+        public void removeConsultations(Consultations consultation){
+            List<Consultations> consultations = GetConsultations().ToList();
+            consultations.Remove(consultation);
+
+            using(var outputStream = File.OpenWrite(JsonFileName))
+            {
+                JsonSerializer.Serialize<IEnumerable<Consultations>>(
+                    new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                    {
+                        SkipValidation = true,
+                        Indented = true
+                    }), 
+                    consultations
+                );
+            }
+        }
+
+        
     }
 
 }
