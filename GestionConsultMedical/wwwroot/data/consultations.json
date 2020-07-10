@@ -40,5 +40,19 @@
     "Medecins_id": 1,
     "Patients_id": 1,
     "raison": "Mal de dos"
+  },
+  {
+    "id": 7,
+    "horaire": "2020-05-23 09:30:00",
+    "Medecins_id": 3,
+    "Patients_id": 2,
+    "raison": "Douleurs \u00E0 la tete"
+  },
+  {
+    "id": 8,
+    "horaire": "2020-05-23 09:00:00",
+    "Medecins_id": 4,
+    "Patients_id": 3,
+    "raison": "Inconnue"
   }
 ]

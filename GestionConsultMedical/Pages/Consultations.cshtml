@@ -80,11 +80,23 @@
               </div>  
               <div class="form-group">
                 <label for="medecins_id">Medecins_id</label>
-                <input class="form-control" id="medecins_id" asp-for="Consultation.Medecins_id"/>
+                <select class="form-control" id="medecins_id" asp-for="Consultation.Medecins_id">
+                  @foreach (var medecin in Model.Medecins)
+                  {
+                    <option value=@medecin.id >@medecin.id - @medecin.nom @medecin.prenom 
+                    </option>
+                  }
+                </select>
               </div>                
               <div class="form-group">
                 <label for="patients_id">Patients_id</label>
-                <input class="form-control" id="patients_id" asp-for="Consultation.Patients_id"/>
+                <select class="form-control" id="patients_id" for="patients" asp-for="Consultation.Patients_id">
+                  @foreach (var patient in Model.Patients)
+                  {
+                    <option value=@patient.id  >@patient.id - @patient.nom @patient.prenom 
+                    </option>
+                  }
+                </select>        
               </div>   
               <div class="form-group">
                 <label for="raison">Raison</label>
